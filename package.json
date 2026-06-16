@@ -2,10 +2,11 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Personal portfolio website",
-  "main": "index.html",
   "scripts": {
-    "start": "npx serve ."
+    "start": "serve ."
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
 }
+
